@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  user-crud:
+    image: ${DOCKERHUB_USERNAME}/user-crud:${IMAGE_TAG:-latest}
+    container_name: user-crud
+    ports:
+      - "8080:8080"
+    restart: unless-stopped

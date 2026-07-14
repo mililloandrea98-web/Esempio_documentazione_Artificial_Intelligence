@@ -1,7 +1,0 @@
-com\example\usercrud\service\UserService.class
-com\example\usercrud\model\User.class
-com\example\usercrud\exception\UserNotFoundException.class
-com\example\usercrud\repository\UserRepository.class
-com\example\usercrud\controller\UserController.class
-com\example\usercrud\exception\GlobalExceptionHandler.class
-com\example\usercrud\UserCrudApplication.class
